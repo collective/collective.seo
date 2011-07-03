@@ -30,7 +30,7 @@ class ZopeAnnotation(object):
     def getAnnotation(self):
         """Return the persistent dict that will embed the configuration"""
         if self.annotation is None:
-            self.annotation = IAnnotations(self.context)
+            self.annotation = IAnnotations(self.context, dict())
         return self.annotation
 
     def getAll(self):
