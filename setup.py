@@ -25,6 +25,7 @@ setup(name='collective.seo',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'collective.configviews',
           # -*- Extra requirements: -*-
       ],
       entry_points="""

@@ -4,7 +4,7 @@ Changelog
 1.1 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- fix setup issue: collective.configviews is a dependency 
 
 
 1.0 (2011-07-01)
